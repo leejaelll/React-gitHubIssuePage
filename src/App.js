@@ -5,6 +5,8 @@ function App() {
     <>
       <header className={styles.header}>Header</header>
       <div className={styles.containerHeader}>ContainerHeader</div>
+      <div className={styles.listContainer}>listContainer</div>
+      <footer className={styles.footer}>footer</footer>
     </>
   );
 }
