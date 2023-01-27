@@ -1,0 +1,10 @@
+.tabList {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0;
+  gap: 8px;
+  margin-top: 16px;
+  min-height: 58px;
+  position: absolute;
+}
