@@ -1,0 +1,11 @@
+.circleBadge {
+  display: inline-block;
+  padding: 0 6px;
+  border-radius: 2rem;
+  background-color: rgba(27, 31, 36, 0.08);
+  margin-left: 2px;
+  text-shadow: none;
+  vertical-align: top;
+  font-size: 12px;
+  text-align: center;
+}

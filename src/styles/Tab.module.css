@@ -1,0 +1,33 @@
+.list {
+  list-style: none;
+  height: 100%;
+}
+
+.tab {
+  display: flex;
+  border: none;
+  padding: 4px 16px;
+  background-color: transparent;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.tab:hover {
+  background-color: rgb(208, 215, 222);
+  border-radius: 6px;
+}
+
+.selected {
+  font-weight: 800;
+}
+
+.selected::before {
+  content: '';
+  position: absolute;
+  border-bottom: 3px solid #fd8c73;
+  width: 100px;
+  bottom: 4px;
+}

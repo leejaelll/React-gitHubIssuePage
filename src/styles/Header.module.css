@@ -1,0 +1,8 @@
+.header {
+  padding: 16px 32px;
+  background-color: #24292f;
+  display: flex;
+  font-size: 14px;
+  font-weight: 600;
+  color: rgb(255, 255, 255);
+}
