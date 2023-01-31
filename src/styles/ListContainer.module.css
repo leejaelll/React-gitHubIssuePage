@@ -2,3 +2,46 @@
   margin-top: 24px;
   padding: 0 32px;
 }
+
+.searchBar {
+  display: flex;
+  margin-bottom: 16px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.filterInputBar {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  width: 80%;
+}
+
+.details {
+  position: relative;
+}
+
+.details a {
+  display: block;
+}
+
+.filterModal {
+  background: white;
+  position: absolute;
+  width: max-content;
+  top: 32px;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.input {
+  border: 1px solid rgb(235, 236, 240);
+  background-color: rgb(235, 236, 240);
+  line-height: 1.5;
+  border-radius: 6px;
+  width: 60%;
+  padding: 5px 0 5px 10px;
+  margin-left: 10px;
+  color: #57606a;
+}
