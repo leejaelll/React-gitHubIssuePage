@@ -20,6 +20,10 @@
   border-radius: 6px;
 }
 
+.title {
+  margin-left: 5px;
+}
+
 .selected {
   font-weight: 800;
 }
