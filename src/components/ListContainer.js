@@ -6,6 +6,7 @@ import ListItemLayout from './ListItemLayout';
 
 export default function ListContainer() {
   const [inputValue, setInputValue] = useState('is:pr is:open');
+  const [checkedList, setCheckedList] = useState([]);
 
   useEffect(() => {
     console.log({ inputValue });
@@ -41,7 +42,7 @@ export default function ListContainer() {
 
       {/* ListItem section */}
       <div className={styles.container}>
-        <ListItem />
+        <ListItem IssueBadges={[{ color: 'red', title: 'Bug' }]} />
       </div>
     </div>
   );
