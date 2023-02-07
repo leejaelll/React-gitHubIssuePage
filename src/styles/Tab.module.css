@@ -6,7 +6,7 @@
 .tab {
   display: flex;
   border: none;
-  padding: 4px 16px;
+  padding: 9px 16px;
   background-color: transparent;
   align-items: center;
   justify-content: center;
@@ -26,12 +26,5 @@
 
 .selected {
   font-weight: 800;
-}
-
-.selected::before {
-  content: '';
-  position: absolute;
   border-bottom: 3px solid #fd8c73;
-  width: 100px;
-  bottom: 4px;
 }
